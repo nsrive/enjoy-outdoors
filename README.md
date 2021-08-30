@@ -1,4 +1,3 @@
-# enjoy-outdoors
 # About the project
 For when your friends force you to leave the house.
 
