@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.png">
+    <title>Enjoy the outdoors</title>
+</head>
+<body>
+    <header>
+        <!-- NAV BAR -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <img src="images/logo.png" width="30" height="30" alt="Our logo">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="ntl-parks.html">National Parks</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="mtns-info.html">Mountains Information</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+      <!-- SEARCH FEATURES -->
+      <div class="container" id="mtnsSearchContainer">
+        <h1>Explore Mountains</h1>
+          <div id="mtnsDDLDiv">
+            <label for="mtnsDDL" id="mtnsDDLLabel" class="m-3">Select a mountain:</label>
+            <select id="mtnsDDL">
+                <option value="">Select one:</option>
+            </select>
+          </div>
+          <br>
+          <div>
+            <input type="button" id="viewImgBtn" value="VIEW INFORMATION">
+            <br>
+            <input type="button" id="clearAllBtn" value="CLEAR ALL">
+          </div>
+      </div>
+      <!-- MOUNTAIN CARD CONTAINER -->
+      <div class="container mt-5">
+        <div class="row" id="mtnsCardContainer">
+
+        </div>  
+      </div>
+      <!-- FEATURED PARKS -->
+      <div class="container mt-5" id="featuredParksContainer">
+          <h3>FEATURED PARKS:</h3>
+          <div class="row p-3">
+            <div class="card col-lg-4 col-md-4 col-sm-12" style="width: 18rem;">
+              <img class="card-img-top" src="images/Cabot-StoryImg.jpg" alt="Cabot image">
+              <div class="card-body">
+                <h5 class="card-title">Antietam National Park</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="https://www.nps.gov/anti/index.htm" target="_blank" class="btn btn-primary">More information</a>
+              </div>
+            </div>
+            <div class="card col-lg-4 col-md-4 col-sm-12" style="width: 18rem;">
+              <img class="card-img-top" src="images/Bond-StoryImage_3.jpg" alt="Bond image">
+              <div class="card-body">
+                <h5 class="card-title">Alcatraz Island</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="https://www.nps.gov/places/alcatraz-island.htm" target="_blank" class="btn btn-primary">More information</a>
+              </div>
+            </div>
+            <div class="card col-lg-4 col-md-4 col-sm-12" style="width: 18rem;">
+              <img class="card-img-top" src="images/Adams-StoryImage_2.jpg" alt="Adams image">
+              <div class="card-body">
+                <h5 class="card-title">Acadia National Park</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="https://www.nps.gov/acad/index.htm" target="_blank" class="btn btn-primary">More information</a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </main>
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <!-- JS -->
+    <script src="scripts/mtns-info.js"></script>
+</body>
+</html>
