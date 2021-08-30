@@ -1,0 +1,228 @@
+/* external */
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Shadows+Into+Light&display=swap');
+/* font-family: 'Shadows Into Light', cursive; */
+
+/* index */
+#welcomeBanner {
+    background-image: url(/images/welcome-banner.png);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Rajdhani', sans-serif;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#homeButtonLinks {
+    justify-content: center;
+}
+#homeButtonLinks a:first-of-type {
+    margin-right: 15px;
+}
+#homeButtonLinks a:last-of-type {
+    margin-left: 15px;
+}
+.checked {
+    color: orange;
+}
+h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 80px;
+    color: white;
+}
+h5 {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+#aboutUsRow {
+    justify-content: center;
+}
+#exploreNtlBtn, #exploreMtnsBtn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+#exploreNtlBtn:active, #exploreMtnsBtn:active {
+    background-color: #b4b8b4;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+@media (max-width: 576px) {
+    #homeButtonLinks a:first-of-type {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    #homeButtonLinks a:last-of-type {
+        margin-left: 0;
+    }
+} 
+
+/* NTL PARKS PAGE */
+.card-body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+}
+.card {
+    border: transparent;
+}
+h3 {
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+th {
+    text-align: center;
+}
+tr {
+    text-align: center;
+}
+#searchContainer {
+    background-image: url(/images/welcome-banner.png);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Rajdhani', sans-serif;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: -webkit-fill-available;
+}
+#viewAllBtn, #hideAllBtn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+#viewAllBtn:active, #hideAllBtn:active {
+    background-color: #b4b8b4;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+#filterDDLLabel, #mtnsDDLLabel {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: black;
+    font-size: 20px;
+}
+#divDDL, #mtnsDDLDiv {
+    background: rgba(214, 216, 214, 0.7);
+    border-radius: 15px;
+    width: fit-content;
+    margin-top: 10px;
+    padding-right: 12px;
+}
+#ntlForm, #mtnsDDLDiv {
+    align-self: center;
+}
+#contactInfoLabel {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: black;
+    font-size: 17px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: #007bff;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+@media (max-width: 576px) {
+    #divDDL {
+        margin-top: 0;
+        padding-right: 0;
+    }
+    #chosenFilterDDL {
+        margin-left: 55px;
+        margin-bottom: 10px;
+    }
+    #featuredParksContainer .row:first-of-type {
+        justify-content: center;
+    }
+    #viewAllBtn, #hideAllBtn {
+        margin-bottom: 10px;
+    }
+    #filterDDL {
+        margin-right: 15px;
+    }
+}
+
+/* MOUNTAINS PAGE */
+#mtnsSearchContainer {
+    background-image: url(/images/welcome-banner.png);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Rajdhani', sans-serif;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: -webkit-fill-available;
+}
+#viewImgBtn, #clearAllBtn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Gloria Hallelujah', cursive;
+    width: fit-content;
+}
+#viewImgBtn:active, #clearAllBtn:active {
+    background-color: #b4b8b4;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+#mtnsCardContainer {
+    justify-content: center;
+}
+#viewImgBtn {
+    margin-bottom: 15px;
+}
+
+@media (max-width: 576px) {
+    #mtnsDDL {
+        margin-bottom: 20px;
+    }
+    #mtnsSearchContainer h1 {
+        font-size: 70px;
+    }
+}
